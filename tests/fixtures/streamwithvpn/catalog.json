@@ -1,0 +1,60 @@
+{
+  "searches": {
+    "nuremberg": [
+      {"title": "Judgment at Nuremberg", "year": 1961, "slug": "judgment-at-nuremberg-1961"},
+      {"title": "Nuremberg Trials", "year": 2006, "slug": "nuremberg-trials-2006"},
+      {"title": "Nuremberg", "year": 2000, "slug": "nuremberg-2000"},
+      {"title": "Nuremberg", "year": 2025, "slug": "nuremberg-2025"}
+    ],
+    "parasite": [
+      {"title": "Parasite", "year": 2019, "slug": "parasite-2019"}
+    ],
+    "synecdoche, new york": [
+      {"title": "Synecdoche, New York", "year": 2008, "slug": "synecdoche-new-york-2008"}
+    ],
+    "amelie": [
+      {"title": "Amélie", "year": 2001, "slug": "amlie-2001"}
+    ]
+  },
+  "pages": {
+    "nuremberg-2025": {
+      "offers": [
+        {"service": "Netflix", "countries": ["United States"], "section": "catalog"},
+        {"service": "Prime Video", "countries": ["Mexico", "Argentina", "Colombia", "Chile", "Peru", "Uruguay", "Venezuela", "India", "Poland"], "section": "catalog"},
+        {"service": "HBO Max", "countries": ["United States"], "section": "catalog"},
+        {"service": "Paramount+", "countries": ["Canada"], "section": "catalog"},
+        {"service": "Sky Go", "countries": ["United Kingdom", "Ireland"], "section": "catalog"},
+        {"service": "Canal+", "countries": ["France"], "section": "catalog"},
+        {"service": "Movistar Plus+", "countries": ["Spain"], "section": "catalog"},
+        {"service": "Stan", "countries": ["Australia"], "section": "catalog"},
+        {"service": "Netflix", "countries": ["Spain"], "section": "dump"}
+      ]
+    },
+    "nuremberg-2000": {
+      "offers": [
+        {"service": "Prime Video", "countries": ["United States"], "section": "catalog"}
+      ]
+    },
+    "parasite-2019": {
+      "offers": [
+        {"service": "Netflix", "countries": ["Spain", "United States", "United Kingdom"], "section": "catalog"},
+        {"service": "Prime Video", "countries": ["Spain", "Mexico"], "section": "catalog"}
+      ]
+    },
+    "synecdoche-new-york-2008": {
+      "offers": [
+        {"service": "Prime Video", "countries": ["Australia", "New Zealand"], "section": "catalog"}
+      ]
+    },
+    "amlie-2001": {
+      "offers": [
+        {"service": "Netflix", "countries": ["Canada"], "section": "catalog"}
+      ]
+    },
+    "judgment-at-nuremberg-1961": {
+      "offers": [
+        {"service": "Netflix", "countries": ["United States"], "section": "catalog"}
+      ]
+    }
+  }
+}

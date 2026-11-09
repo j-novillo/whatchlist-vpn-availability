@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "watchlist-enricher"
+version = "0.1.0"
+description = "Enriquece una nota de Google Keep con dónde ver cada título (Netflix, Prime Video, RTVE Play)."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4==4.15.0",
+    "google-api-python-client==2.201.0",
+    "google-auth==2.62.1",
+    "google-auth-oauthlib==1.5.0",
+    "python-dotenv==1.2.4",
+    "requests==2.34.2",
+]
+
+[project.optional-dependencies]
+unofficial = ["gkeepapi==0.17.1"]
+dev = ["pytest==9.2.0", "pytest-socket==0.8.1"]
+
+[project.scripts]
+watchlist-enricher = "watchlist_enricher.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "--disable-socket --allow-unix-socket"

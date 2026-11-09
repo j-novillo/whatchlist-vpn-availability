@@ -1,0 +1,14 @@
+.env
+.venv/
+agent-tools/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+token.json
+credentials.json
+*-credentials.json
+.keep_state.json
+.python-version
